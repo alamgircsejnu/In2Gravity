@@ -1,0 +1,314 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul.nav.navbar-nav li a {
+        color: #fff;
+        padding: 25px 10px;
+    }
+    .logo {
+        padding-top: 20px;
+    }
+    .testimonial-slider::before {
+        font-size: 35px;
+        left: -410px;
+    }
+    .single-testimonial p {
+        font-size: 16px;
+    }
+    .client-list ul#clients {
+        margin-left: -40px;
+    }
+    .client-list ul#clients li {
+        margin-left: 40px;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section-padding {
+        padding: 60px 0;
+    }
+    .logo {
+        padding: 30px 0 15px 0;
+        text-align: center;
+    }
+    .main-menu ul.nav.navbar-nav li a {
+        padding: 20px 10px;
+    }
+    .header-text {
+        padding: 134px 0;
+        text-align: center;
+    }
+    .header-text h1 {
+        font-size: 55px;
+        padding-bottom: 10px;
+    }
+    .feature-img {
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .about-text {
+        padding-bottom: 50px;
+    }
+    .about-text p {
+        padding: 60px 0;
+    }
+    .portfolio-item {
+        margin-left: -10px;
+    }
+    .single-portfolio {
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    .single-portfolio img {
+        width: 227px;
+    }
+    .counter-wrapper i {
+        font-size: 35px;
+    }
+    .counter-wrapper h3 {
+        font-size: 25px;
+    }
+    .counter-wrapper p {
+        font-size: 16px;
+    }
+    .testimonial-slider::before {
+        font-size: 30px;
+        left: -390px;
+    }
+    .single-testimonial p {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .client-list ul#clients {
+        margin-left: -19px;
+    }
+    .client-list ul#clients li {
+        margin-left: 13px;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .navbar-header {
+        position: absolute;
+        right: 18px;
+        top: -35px;
+    }
+    .main-menu {
+        padding-right: 0;
+        padding-top: 25px;
+        text-align: center;
+    }
+    .navbar-toggle {
+        border: 1px solid #fff;
+        float: none;
+        margin: 0;
+    }
+    .navbar-toggle .icon-bar {
+        background: #fff none repeat scroll 0 0;
+    }
+    .mobile-menu-activated ul.nav.navbar-nav {
+        background: #000 none repeat scroll 0 0;
+        text-align: center;
+    }
+    .mobile-menu-activated ul.nav.navbar-nav {
+        margin-top: -5px;
+    }
+    .mobile-menu-activated ul.nav.navbar-nav li {
+        display: block;
+    }
+    .mobile-menu-activated ul.nav.navbar-nav li a {
+        padding: 15px;
+        border-bottom: 1px solid #333;
+    }
+    .mobile-menu-activated .navbar-collapse {
+        box-shadow: 0 0 0;
+    }
+    .is-sticky .logo {
+        padding-top: 20px;
+    }
+    .header-text {
+        text-align: center;
+    }
+    .header-text h1 {
+        font-size: 45px;
+    }
+    .header-text h1 span {
+        font-size: 35px;
+    }
+    .header-text p {
+        font-size: 20px;
+    }
+    a.button-filled {
+        font-size: 15px;
+        padding: 15px 30px;
+    }
+    .section-padding {
+        padding: 40px 0;
+    }
+    .feature-img {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .item-title p {
+        font-size: 15px;
+    }
+    .about-text h3,
+    .item-title h3 {
+        font-size: 25px;
+    }
+    .about-text h3::before,
+    .item-title h3::before {
+        bottom: -20px;
+        width: 63px;
+    }
+    body {
+        font-size: 13px;
+        line-height: 28px;
+    }
+    .featured-item .title h3 {
+        font-size: 20px;
+    }
+    .about-text p {
+        padding: 40px 0;
+    }
+    .freq-ques {
+        padding-top: 35px;
+    }
+    .panel-heading h4.panel-title {
+        font-size: 15px;
+    }
+    .section-heading h3 {
+        font-size: 25px;
+    }
+    .section-heading h3::after {
+        bottom: -20px;
+        margin-left: -31.5px;
+        width: 63px;
+    }
+    .section-heading p {
+        padding: 45px 0;
+    }
+    .single-service {
+        text-align: center;
+    }
+    .single-service p {
+        padding: 20px 0;
+        text-align: center;
+    }
+    .portfolio-filter ul li {
+        font-size: 12px;
+        margin-left: 2px;
+        padding: 5px;
+    }
+    .portfolio-filter ul li:first-child {
+        margin-left: -2px;
+    }
+    .single-portfolio img {
+        width: 200px;
+    }
+    .counter-wrapper i {
+        font-size: 25px;
+    }
+    .counter-wrapper h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        margin-top: 12px;
+    }
+    .counter-wrapper p {
+        font-size: 15px;
+    }
+    .single-count {
+        padding: 15px 0;
+    }
+    .single-testimonial p {
+        font-size: 15px;
+        line-height: 35px;
+        padding-bottom: 20px;
+    }
+    .single-testimonial h4 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .testimonial-slider::before {
+        font-size: 25px;
+        left: -163px;
+    }
+    .client-list ul#clients li {
+        padding-bottom: 35px;
+    }
+    .single-blog .blog-title h3 {
+        font-size: 18px;
+    }
+    .single-blog .blog-title h5 {
+        font-size: 13px;
+    }
+    .single-blog .blog-title p a {
+        display: block;
+        font-size: 13px;
+    }
+    .subscribe-form form input[type="email"] {
+        font-size: 13px;
+        padding: 10px 0 10px 15px;
+        width: 305px;
+    }
+    .subscribe-form form input[type="submit"],
+    .contact-form form input[type="submit"] {
+        font-size: 13px;
+        margin-top: 20px;
+        padding: 7px 0;
+        width: 120px;
+    }
+    .footer-social {
+        text-align: center;
+    }
+    .footer-social ul#footer-social-links li a {
+        font-size: 18px;
+        height: 35px;
+        line-height: 28px;
+        margin-left: 5px;
+        padding: 3px 8px;
+        width: 35px;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .copyright p {
+        font-size: 13px;
+        padding-top: 5px;
+    }
+    .footer-area {
+        padding: 20px 0;
+    }
+    aside {
+        margin: 40px 0;
+    }
+    .widget ul.recent li {
+        margin-bottom: 35px;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .feature-img {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .testimonial-slider::before {
+        font-size: 25px;
+        left: -300px;
+    }
+    .client-list ul#clients {
+        margin-left: -7px;
+    }
+    .client-list ul#clients li {
+        margin-left: 7px;
+    }
+}
